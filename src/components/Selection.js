@@ -6,7 +6,7 @@ export default function Selection(props) {
     <div
       className="fix-box"
       style={color}
-      onClick={() => setColor(props.applyColor)}
+      onClick={() => props.applyColor(setColor)}
     >
       <h2 className="subheading">Selection</h2>
     </div>
