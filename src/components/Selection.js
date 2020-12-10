@@ -8,7 +8,7 @@ export default function Selection(props) {
       style={color}
       onClick={() => setColor(props.applyColor)}
     >
-      <h2 className="ubheading">Selection</h2>
+      <h2 className="subheading">Selection</h2>
     </div>
   );
 }
